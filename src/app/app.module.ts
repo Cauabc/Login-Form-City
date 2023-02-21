@@ -3,13 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FirstComponentComponent } from './components/first-component/first-component.component';
+import { FormLoginComponent } from './components/form-login/form-login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponentComponent,
+    FormLoginComponent,
     
   ],
   imports: [

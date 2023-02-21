@@ -11,4 +11,16 @@ body{
   align-items: center;
   justify-content: center;
   background-color: rgb(225, 225, 225);
+  background-image: url("./assets/kuala-lumpur-ge16d63a17_1920.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.blur{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff81;
 }

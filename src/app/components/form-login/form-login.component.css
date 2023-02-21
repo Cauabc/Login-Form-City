@@ -1,0 +1,74 @@
+main{
+    position: relative;
+    z-index: 10;
+    width: 20vw;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    box-shadow: 0px 0px 3px;
+}
+
+.form h1{
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form img{
+    margin-bottom: 2rem;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.usernameForm, .passwordForm, .emailForm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input{
+    border: 0;
+    padding: 10px 15px;
+    outline: none;
+}
+
+label{
+    position: relative;
+}
+
+label::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0000003a;
+    bottom: -35px;
+    left: 0px;
+}
+
+.buttonSubmit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSubmit input{
+    width: 100%;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #00000038;
+    background: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+}
