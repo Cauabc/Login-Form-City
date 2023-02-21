@@ -1,0 +1,126 @@
+main{
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    box-shadow: 0px 0px 15px -3px;
+    border-radius: 15px;
+}
+
+.leftSide{
+    background-image: linear-gradient(to right bottom, #228B22, #33c433, #34d134 );
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.leftSide h1{
+    color: #fff;
+}
+
+.leftSide button{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.leftSide p{
+    margin-top:2rem;
+    font-size: .8rem;
+    color: #fff;
+}
+
+.rightSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 60%;
+    border-radius: 0 15px 15px 0;
+}
+
+.rightSide h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #228B22;
+}
+
+.rightSide button{
+    background-color: #228B22;
+    padding: 7px 25px;
+    border-radius: 9px;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.rightSide button:hover{
+    background-color: #006400;
+}
+
+.rightSide h2{
+    margin-bottom: 3rem;
+}
+
+.email, .password{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    position: relative;
+    height: 25px;
+    width: 18rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 8px;
+}
+
+label::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -40px;
+    left: 5px;
+    background: #0000001f;
+}
+
+
+input::placeholder{
+    color: rgba(0, 0, 0, .3);
+    font-weight: bold;
+}
+
+label{
+    position: relative;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button button{
+    width: 60%;
+}
